@@ -1,0 +1,38 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+.login{
+    padding: 100px;
+    width: 300px;
+display: flex;
+flex-direction: column;
+align-items: end;
+
+}
+
+input{
+    width: 220px;
+    height:20px;
+    margin-left: 5px;
+}
+
+.elements{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+button{
+    width: 220px;
+    height:25px;
+     margin-top: 15px;
+     position: relative;
+    background-color: blue;
+    font-weight: 800;
+    border: none;
+}
+

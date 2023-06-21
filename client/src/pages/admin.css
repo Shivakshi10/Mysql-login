@@ -1,0 +1,40 @@
+
+.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  color: #000000;
+  text-align: center;
+}
+
+.head{
+    background-color: rgb(87, 126, 255);
+}
+
+tr:nth-child(even){
+background-color: #24fffb;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(203, 203, 203);
+    }
+
+
+.GeneratedTable td, .GeneratedTable th {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  padding: 3px;
+}
+
+.name {
+  background-color: #24fffb;
+}
+
+.headers{
+    background-color: #ffe26d;
+    font-weight: 800;
+}
