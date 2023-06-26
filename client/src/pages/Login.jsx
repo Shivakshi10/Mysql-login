@@ -25,7 +25,7 @@ const navigate = useNavigate();
                //const res= await axios.post("auth/login",inputs);
           // console.log(res.data);
           await login(inputs);
-          navigate("/");
+          navigate("/page1");
             }catch(err){
              setErr(err.response.data);
             }
