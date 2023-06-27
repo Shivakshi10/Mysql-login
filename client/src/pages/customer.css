@@ -11,6 +11,7 @@ align-items: end;
 
 label{
     width: 100px;
+    text-align: end;
 }
 
 input{
@@ -26,12 +27,13 @@ input{
     justify-content: end;
 }
 
-button{
-    width: 200px;
+.buttoncustomer{
+    width: 207px;
     height:25px;
      margin-top: 15px;
      position: relative;
     background-color: blue;
     font-weight: 800;
     border: none;
+    cursor: pointer;
 }

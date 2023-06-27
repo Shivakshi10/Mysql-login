@@ -44,7 +44,7 @@ const navigate = useNavigate();
                   <label htmlFor="password">Password</label>
             <input type='password' name='password' id='password'  onChange={handleChange}/>
                 </div>
-            <button onClick={handleSubmit}>Sign In</button>
+            <button className="buttonLogin" onClick={handleSubmit}>Sign In</button>
         </form>
       
     </div>

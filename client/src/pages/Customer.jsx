@@ -78,7 +78,7 @@ navigate("/");
         <label htmlFor="checklistQ">Checklist Quantity</label>
         <input type='text' name='checklistQ' id='checklistQ' onChange={handleChange}/>
         </div>
-        <button onClick={handleSubmit}>SUBMIT</button>
+        <button className='buttoncustomer' onClick={handleSubmit}>SUBMIT</button>
       </form>
     </div>
   )

@@ -26,13 +26,15 @@ input{
     justify-content: end;
 }
 
-button{
-    width: 220px;
+.buttonLogin{
+    width: 206px;
     height:25px;
      margin-top: 15px;
      position: relative;
     background-color: blue;
+    border: 1px solid black;
     font-weight: 800;
     border: none;
+    cursor: pointer;
 }
 
